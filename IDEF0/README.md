@@ -1,6 +1,7 @@
 ## Test1
 
-``` graph TD;
+```mermaid
+graph TD;
     subgraph A0[Распознавание объектов на дороге с помощью YOLO]
         subgraph A1[Ввод данных]
             video[Видеопоток с камеры] -->|Видеоданные| preprocessing[Предобработка данных]
