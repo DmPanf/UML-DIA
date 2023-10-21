@@ -18,7 +18,7 @@ graph TD;
   
   R3[Preprocessed Data] --> A2
   R4[YOLO Base Model] --> A2
-  R5[Hardware (GPU/CPU)] --> A2
+  R5[Hardware GPU/CPU] --> A2
   
   R6[Trained YOLO Model] --> A3
   R7[Test Data] --> A3
