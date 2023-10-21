@@ -1,3 +1,28 @@
+## Test 2
+
+```mermaid
+classDiagram
+    FastAPIServer --|> YOLOModel : Uses
+    TelegramBot --|> FastAPIServer : Sends Requests
+    YOLOModel : +predictPotholes(image)
+    FastAPIServer : +getPotholes(image)
+    FastAPIServer : +respondWithLocations()
+    TelegramBot : +sendMessage()
+    TelegramBot : +receiveMessage()
+    class YOLOModel{
+        +loadModel()
+        +predict(image)
+    }
+    class FastAPIServer{
+        +processImage(image)
+        +handleRequest(request)
+    }
+    class TelegramBot{
+        +startBot()
+        +sendReport()
+    }
+```
+
 ## Test 1
 
 ```mermaid
