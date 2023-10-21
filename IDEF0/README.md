@@ -1,3 +1,31 @@
+## Test 4
+<code>
++----------------------------------+
+|            FastAPI Server        |
++----------------------------------+
+| - model: YOLO                    |
+| - database: SQL                  |
++----------------------------------+
+| + detect_potholes(image: Image)  |
+| + store_detection(result: JSON)  |
++----------------------------------+
+                  |
+                  |
+                  | API Calls
+                  |
+                  v
++----------------------------------+
+|        Telegram Bot Client       |
++----------------------------------+
+| - api_client: FastAPI API Client |
+| - chat_id: int                   |
++----------------------------------+
+| + receive_image()                |
+| + send_result()                  |
++----------------------------------+
+</code>
+
+
 ## Test 3
 ```mermaid
 classDiagram
