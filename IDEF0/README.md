@@ -1,7 +1,7 @@
 ## Test 1
 
 ```mermaid
-graph TD
+graph TD;
   A0[Recognition of road defects using YOLO]
   K1[Standards for a specific country] --> A0
   K2[Performance KPI] --> A0
