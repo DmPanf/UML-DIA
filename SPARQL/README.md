@@ -61,3 +61,10 @@ Then TelegramBot sends CriticalHazardAlert
 ```
 
 This knowledge base is tailored to the specifics of the project, where the system processes road images to detect potholes, uses a neural model (YOLO) with certain accuracy parameters, and integrates with FastAPI and a Telegram Bot for user interaction.
+
+
+---
+
+## Example
+
+![image](https://github.com/DmPanf/UML-DIA/assets/99917230/cd68bdf0-29ef-4a52-b62b-ee29e3b49926)
